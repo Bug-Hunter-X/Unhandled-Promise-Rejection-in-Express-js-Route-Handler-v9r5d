@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Express.js Route Handler
+
+This repository demonstrates a common error in Express.js applications:  unhandled promise rejections in asynchronous route handlers.  The `bug.js` file shows a route that performs an asynchronous operation but fails to handle potential errors.  The `bugSolution.js` demonstrates the correct way to handle these errors using a `.catch` block.
